@@ -53,6 +53,17 @@ python main.py
 ```
 This command will start the Selenium WebDriver, open the specified website, and perform the automated tests to identify the fake gold bar.
 
+Certainly! Here's a more concise version of the "Future Scope" section for your README.md to detail planned enhancements for the test automation project:
+
+## Future Scope
+Enhanced Test Automation
+* Objective: Expand the test suite to handle multiple scenarios through CSV input, making it suitable for regression testing and continuous integration.
+
+### Implementation Steps:
+* CSV Input: Adapt the script to read test parameters from a CSV file where each row represents a different scenario, specifying the positions of the gold bars and the expected fake.
+* Dynamic Test Execution: Update the existing functions to iterate over each scenario provided in the CSV, applying the logic to identify the fake gold bar.
+
+
 ### Additional Notes
 Ensure that the URL and the elements' IDs in the scripts match those on the target website.
 Adjust the sleep times in the script if necessary to accommodate network speed or response times of the website.
