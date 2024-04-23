@@ -29,23 +29,23 @@ To clone the repository and set up the project, follow these steps:
 Open your terminal or command prompt.
 Navigate to the directory where you want to clone the repository.
 Clone the repository using the following command:
-bash
+#### bash
 Copy code
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/Kshitijijari09/Fetch-SDET.git
 Replace your-username and your-repository-name with your actual GitHub username and the name of the repository.
 Navigate into the project directory:
-bash
+#### bash
 Copy code
-cd your-repository-name
+cd Fetch_SDET
 Running the Script
 To run the main script, execute the following command from the root of the project directory:
 
-bash
+#### bash
 Copy code
 python main.py
 This command will start the Selenium WebDriver, open the specified website, and perform the automated tests to identify the fake gold bar.
 
-Additional Notes
+### Additional Notes
 Ensure that the URL and the elements' IDs in the scripts match those on the target website.
 Adjust the sleep times in the script if necessary to accommodate network speed or response times of the website.
 Troubleshooting
@@ -54,4 +54,4 @@ If you encounter any issues while running the script:
 Verify that ChromeDriver is correctly installed and accessible.
 Ensure that all Python packages are installed and up to date.
 Check the website URL and ensure that the web elements the script interacts with are present and correctly identified.
-For further assistance, refer to the Selenium documentation: https://selenium-python.readthedocs.io/
+For further assistance, email: kijari6935@sdsu.edu
