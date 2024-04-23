@@ -17,9 +17,11 @@ Python can be downloaded and installed from https://www.python.org/downloads/. E
 ### Installing Selenium
 Once Python is installed, you can install Selenium using pip:
 
-bash
+
 Copy code
+```bash
 pip install selenium
+```
 Installing ChromeDriver
 Download ChromeDriver from the following URL, matching the version with your Chrome browser: https://sites.google.com/a/chromium.org/chromedriver/downloads. Ensure ChromeDriver is placed in a directory included in your system's PATH, or you can specify its path directly in the scripts.
 
@@ -31,18 +33,24 @@ Navigate to the directory where you want to clone the repository.
 Clone the repository using the following command:
 #### bash
 Copy code
+```bash
 git clone https://github.com/Kshitijijari09/Fetch-SDET.git
+```
 Replace your-username and your-repository-name with your actual GitHub username and the name of the repository.
 Navigate into the project directory:
 #### bash
 Copy code
+```bash
 cd Fetch_SDET
+```
 Running the Script
 To run the main script, execute the following command from the root of the project directory:
 
 #### bash
 Copy code
+```bash
 python main.py
+```
 This command will start the Selenium WebDriver, open the specified website, and perform the automated tests to identify the fake gold bar.
 
 ### Additional Notes
